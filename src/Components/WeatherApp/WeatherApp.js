@@ -9,7 +9,7 @@ import rain_photo from "../Assets/rain.png";
 import snow_photo from "../Assets/snow.png";
 import wind_photo from "../Assets/wind.png";
 
-const WeatherApp = () => {
+function WeatherApp() {
   let api_key = "8c76aabef859dad297b8a9c506a8ba68";
   const [wicon, setWicon] = useState(cloud_photo);
 
@@ -105,6 +105,6 @@ const WeatherApp = () => {
       </div>
     </div>
   );
-};
+}
 
 export default WeatherApp;
